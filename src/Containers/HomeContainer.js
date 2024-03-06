@@ -7,7 +7,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  //this build the connection
+  //this builds the connection
   addToCartHandler: (data) => dispatch(addToCart(data)), //addToCartHandler function is going to be called from react component
   removeToCartHandler: () => dispatch(removeToCart()),
 });

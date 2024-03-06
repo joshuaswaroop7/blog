@@ -1,7 +1,7 @@
 import React from "react";
 
 function Home(props) {
-  console.warn("home", props);
+  console.warn("home", props.data.cartData);
 
   return (
     <div>
